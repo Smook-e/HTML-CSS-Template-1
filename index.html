@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temp 1</title>
+    <!-- Main template css file -->
+    <link rel="stylesheet" href="css/leon.css">
+    <!-- render all elements normally -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- font awesome  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <!-- start header -->
+    <header>
+        <div class="container">
+            <img src="images/logo.png" alt="logo">
+            <div id="toggle" class="links">
+                <span class="icon">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+                <ul id="menu">
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+    <!-- Start Landing -->
+    <section class="landing">
+        <div class="intro-text">
+            <h1>Hello There</h1>
+            <p>We are Leon - Super Creative & Minimal Agency Web Template</p>
+        </div>
+    </section>
+    <!-- End Landing -->
+    <!-- start features -->
+    <section class="features">
+        <div class="container">
+            <div class="feat">
+                <i class="fas fa-magic fa-3x"></i>
+                <h3>Tell us about your idea</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem alias beatae, veritatis eaque
+                    pariatur exercitationem id commodi similique dolore tempore deserunt amet illum eligendi expedita
+                </p>
+            </div>
+            <div class="feat">
+                <i class="far fa-gem fa-3x"></i>
+                <h3>We Will DO all the work</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dolores veritatis aliquid sunt
+                    assumenda voluptas aspernatur rem vero quaerat nemo ut sint provident harum </p>
+            </div>
+            <div class="feat">
+                <i class="fas fa-globe-asia fa-3x"></i>
+                <h3>Your product is worldwide</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At asperiores laudantium reprehenderit qui
+                    dolorum nulla eligendi, sint provident tenetur harum? Cupiditate repellat quasi </p>
+            </div>
+        </div>
+    </section>
+    <!-- end features -->
+    <!-- start Services -->
+    <section class="services">
+        <div class="container">
+            <h2 class="special-heading">Services</h2>
+            <p>Don't be busy, be productive</p>
+            <div class="content">
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-palette fa-2x"></i>
+                        <div class="text">
+                            <h3>Graphic design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet alias nihil velit autem
+                                dicta ipsa et ut quidem culpa ea tempore </p>
+
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-sketch fa-2x"></i>
+                        <div class="text">
+                            <h3>UI/UX</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet alias nihil velit autem
+                                dicta ipsa et ut quidem culpa ea tempore </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="srv">
+                        <i class="fas fa-vector-square fa-2x"></i>
+                        <div class="text">
+                            <h3>Web Design</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet alias nihil velit autem
+                                dicta ipsa et ut quidem culpa ea tempore </p>
+
+                        </div>
+                    </div>
+                    <div class="srv">
+                        <i class="fas fa-pencil-ruler fa-2x"></i>
+                        <div class="text">
+                            <h3>Web Development</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eveniet alias nihil velit autem
+                                dicta ipsa et ut quidem culpa ea tempore</p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="img">
+                        <img src="images/vertical mountain.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Services -->
+    <!-- start portfolio -->
+    <section class="portfolio">
+        <div class="container">
+            <h2 class="special-heading">Portfolio</h2>
+            <p>If you do it right, it will last forever</p>
+            <div class="content">
+                <div class="card">
+                    <img src="images/project1.jpg" alt="">
+                    <div class="info">
+                        <h3>Project 1</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis </p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="images/project 2.jpg" alt="">
+                    <div class="info">
+                        <h3>Project 2</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis</p>
+                    </div>
+
+                </div>
+                <div class="card">
+                    <img src="images/projcet3.jpg" alt="">
+                    <div class="info">
+                        <h3>project 3</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Blanditiis</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end Portfolio -->
+     <script>
+        // toggle menu
+        let links = document.getElementById('toggle');
+        let menu = document.getElementById('menu');
+        links.addEventListener('click', function () {
+            menu.style.display = menu.style.display === 'block' ? 'none' : 'block';
+        })
+        
+     </script>
+
+
+
+</body>
+
+</html>
